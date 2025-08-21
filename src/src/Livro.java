@@ -30,4 +30,13 @@ public class Livro {
     public void setAnoPublicacao(int anoPublicacao){
         this.anoPublicacao = anoPublicacao;
     }
+
+    @Override
+    public String toString() {
+        return "Livro{" +
+                "titulo='" + titulo + '\'' +
+                ", autor='" + autor + '\'' +
+                ", anoPublicacao=" + anoPublicacao +
+                '}';
+    }
 }
