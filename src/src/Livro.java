@@ -1,0 +1,33 @@
+public class Livro {
+    private String titulo;
+    private String autor;
+    private int anoPublicacao;
+
+    public Livro(String titulo, String autor, int anoPublicacao) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.anoPublicacao = anoPublicacao;
+    }
+
+    // Métodos título
+    public String getTitle(){
+        return titulo;
+    }
+    public void setTitle(String title){
+        this.titulo = title;
+    }
+    // Métodos autor
+    public String getAuthor(){
+        return autor;
+    }
+    public void setAuthor(String autor){
+        this.autor = autor;
+    }
+    // Método ano
+    public int getAnoPublicacao(){
+        return anoPublicacao;
+    }
+    public void setAnoPublicacao(int anoPublicacao){
+        this.anoPublicacao = anoPublicacao;
+    }
+}
