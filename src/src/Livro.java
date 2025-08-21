@@ -28,6 +28,11 @@ public class Livro {
         return anoPublicacao;
     }
     public void setAnoPublicacao(int anoPublicacao){
+        int ano_atual = 2025;
+        if (anoPublicacao > ano_atual || anoPublicacao < 0){
+            System.out.println("Erro: ano inválido");
+            return;
+        }
         this.anoPublicacao = anoPublicacao;
     }
 
